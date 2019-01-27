@@ -1,0 +1,26 @@
+body {
+	background-color: lightblue;
+	font-family: serif;
+
+	nav {
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+
+		> a {
+			padding: 0 20px;
+			color: crimson;
+			text-decoration: none;
+			text-transform: uppercase;
+			background-color: lightgray;
+			display: inline-block;
+			margin-left: 15px;
+			box-shadow: 2px 2px 2px gray;
+
+			&.active {
+				box-shadow: 1px 1px 1px gray;
+				color: blue;
+			}
+		}
+	}
+}
