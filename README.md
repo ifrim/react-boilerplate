@@ -12,7 +12,7 @@
 npm i
 ```
 
-## Run the dev server
+## Run the development server
 ```
 npm start
 ```
